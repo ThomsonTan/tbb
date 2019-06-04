@@ -27,6 +27,8 @@
 #       define __ARCH_x86_32 1
 #   elif defined(_M_ARM)
 #       define __ARCH_other 1
+#   elif defined(_M_ARM64)
+#       define __ARCH_other 1
 #   else
 #       error Unknown processor architecture for Windows
 #   endif
